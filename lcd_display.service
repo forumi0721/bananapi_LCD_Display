@@ -7,5 +7,5 @@ WantedBy=multi-user.target
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-ExecStart=/usr/bin/lcd_display
+ExecStart=/usr/bin/lcd_display-daemon.sh
 ExecExit=/usr/bin/killall lcd_display
