@@ -8,3 +8,4 @@ WantedBy=multi-user.target
 Type=oneshot
 RemainAfterExit=yes
 ExecStart=/usr/bin/lcd_display
+ExecExit=/usr/bin/killall lcd_display
