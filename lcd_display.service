@@ -1,0 +1,10 @@
+[Unit]
+Description=LCD Display
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/lcd_display
